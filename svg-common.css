@@ -1,0 +1,47 @@
+svg {
+  border: solid 1px #3d356b;
+  width: 400px;
+  height: 300px;
+}
+#checks {
+  margin: 10px;
+}
+.dot-svg-component {
+  fill: #3d356b;
+  cursor: move;
+  stroke: transparent;
+  stroke-width: 30px;
+}
+.dot-svg-component:active {
+  cursor: none;
+}
+.wall-svg-component {
+  stroke: #3d356b;
+  stroke-width: 5px;
+  cursor: move;
+}
+
+.window-svg-component {
+  stroke: white;
+  stroke-width: 3px;
+  padding: 10px;
+}
+.window-wall-svg-component {
+  stroke: #3d356b;
+  stroke-width: 5px;
+}
+
+.door-svg-component {
+  stroke: #3d356b;
+  stroke-width: 2px;
+}
+.door-wall-svg-component {
+  stroke: white;
+  stroke-width: 6px;
+}
+#svg-small {
+  -webkit-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  transform: scale(0.3);
+  cursor: pointer;
+}
